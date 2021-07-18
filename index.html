@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Basic Calculator</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form-area">
+            <input type="text" id="input-calculator">
+        </form>
+
+        <div class="buttons">
+            <div onclick="pressButton(0)">0</div>
+            <div onclick="pressButton(1)">1</div>
+            <div onclick="pressButton(2)">2</div>
+            <div onclick="pressButton('C')">C</div>
+            <div onclick="pressButton(3)">3</div>
+            <div onclick="pressButton(4)">4</div>
+            <div onclick="pressButton(5)">5</div>
+            <div onclick="pressButton('+')">+</div>
+            <div onclick="pressButton(6)">6</div>
+            <div onclick="pressButton(7)">7</div>
+            <div onclick="pressButton(8)">8</div>
+            <div onclick="pressButton('-')">-</div>
+            <div onclick="pressButton(9)">9</div>
+            <div onclick="pressButton('X')">X</div>
+            <div onclick="pressButton('/')">/</div>
+            <div onclick="makeSubmit()">=</div>
+        </div>
+    </div>
+
+    <script src="./renderer.js">
+    </script>
+</body>
+</html>

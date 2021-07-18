@@ -1,1 +1,1 @@
-# electron-calculator
+# Electron Calculator
